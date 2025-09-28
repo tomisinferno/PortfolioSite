@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tomi's Web Portfolio</title>
+  </head>
+  <body>
+    <div class="h-screen overflow-y-scroll snap-y snap-mandatory">
+      <section
+        class="h-screen w-full flex items-center justify-center snap-start bg-[url('images/black-grid.jpg')] bg-cover bg-center"
+      >
+        <div
+          class="bg-black rounded-lg p-6 mx-4 w-full max-w-4xl border border-gray-800"
+        >
+          <div class="flex items-center gap-2">
+            <div class="bg-red-500 rounded-full w-3 h-3"></div>
+            <div class="bg-yellow-500 rounded-full w-3 h-3"></div>
+            <div class="bg-green-500 rounded-full w-3 h-3"></div>
+          </div>
+          <div>
+            <p class="text-green-500 my-2">$ whoami</p>
+            <h1 class="text-white text-4xl">Tomi Adisa</h1>
+            <p class="text-gray-400 mb-2">Developer</p>
+            <p class="text-green-500 my-2">$ skills</p>
+            <div class="flex flex-wrap gap-2 mb-2 text-white">
+              <span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >.NET/C#</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >Selenium</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >AWS</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >Azure</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >NoSql</span
+              >
+            </div>
+            <p class="text-green-500 mt-4 mb-2">$ languages</p>
+            <div class="flex flex-wrap gap-2 mb-2 text-white">
+              <span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >English</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >French</span
+              >
+            </div>
+            <p class="text-green-500 mt-4 mb-2">$ certifications</p>
+            <div class="flex flex-wrap gap-2 mb-2 text-white">
+              <span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >AZ-900</span
+              ><span
+                class="px-3 py-1 hover:bg-green-500/20 bg-green-500/10 rounded-md border border-green-500/20"
+                >AZ-104</span
+              >
+              <span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >AZ-204</span
+              ><span
+                class="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20"
+                >AZ-305</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="min-h-screen w-full flex flex-col items-center justify-start snap-start bg-gradient-to-b from-neutral-950 to-neutral-800 px-6 py-16"
+      >
+        <h1 class="text-4xl font-bold text-white mb-10">Projects</h1>
+
+        <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 max-w-6xl w-full">
+          <!-- Card 1 -->
+          <div
+            class="bg-gray-900 rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+          >
+            <img
+              src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+              alt="Project thumbnail"
+              class="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-white">Project One</h3>
+              <p class="text-sm text-gray-400 mt-2">Quick overview.</p>
+              <div class="mt-4 flex gap-2">
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Python</span
+                >
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Flask</span
+                >
+              </div>
+              <a
+                href="#"
+                class="inline-block mt-4 text-green-400 font-medium text-sm hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="bg-gray-900 rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+          >
+            <img
+              src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+              alt="Project thumbnail"
+              class="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-white">Project Two</h3>
+              <p class="text-sm text-gray-400 mt-2">Quick overview.</p>
+              <div class="mt-4 flex gap-2">
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Python</span
+                >
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Flask</span
+                >
+              </div>
+              <a
+                href="#"
+                class="inline-block mt-4 text-green-400 font-medium text-sm hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="bg-gray-900 rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+          >
+            <img
+              src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+              alt="Project thumbnail"
+              class="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-white">Project Three</h3>
+              <p class="text-sm text-gray-400 mt-2">Quick overview</p>
+              <div class="mt-4 flex gap-2">
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Python</span
+                >
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Flask</span
+                >
+              </div>
+              <a
+                href="#"
+                class="inline-block mt-4 text-green-400 font-medium text-sm hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="bg-gray-900 rounded-xl shadow-md overflow-hidden transform transition duration-300 hover:-translate-y-2 hover:shadow-xl"
+          >
+            <img
+              src="https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png"
+              alt="Project thumbnail"
+              class="w-full h-40 object-cover transition-transform duration-300 hover:scale-105"
+            />
+            <div class="p-4">
+              <h3 class="text-lg font-semibold text-white">Project Four</h3>
+              <p class="text-sm text-gray-400 mt-2">Quick overview.</p>
+              <div class="mt-4 flex gap-2">
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Python</span
+                >
+                <span
+                  class="px-2 py-1 bg-gray-700 rounded text-xs text-gray-300"
+                  >Flask</span
+                >
+              </div>
+              <a
+                href="#"
+                class="inline-block mt-4 text-green-400 font-medium text-sm hover:underline"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="h-screen snap-start w-full flex flex-col bg-gradient-to-b from-neutral-800 to-neutral-700 px-6"
+      >
+        <!-- Centering wrapper that fills available space -->
+        <div class="flex-1 flex items-center justify-center w-full">
+          <div
+            class="rounded-lg p-8 mx-4 w-full max-w-4xl h-5/6 bg-gradient-to-r from-cyan-500/10 to-indigo-500/10"
+          >
+            <div class="flex items-center gap-2 my-5">
+              <div class="bg-red-500 rounded-full w-3 h-3"></div>
+              <div class="bg-yellow-500 rounded-full w-3 h-3"></div>
+              <div class="bg-green-500 rounded-full w-3 h-3"></div>
+            </div>
+
+            <div>
+              <h1 class="text-white text-4xl py-0">Let's Connect</h1>
+              <p class="text-green-500 mt-7">$ location --current</p>
+
+              <div class="flex items-center gap-2 text-gray-200 my-2">
+                <svg
+                  class="w-5 h-5 text-green-400"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                  ></path>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+                  ></path>
+                </svg>
+                <p class="mt-1">Hamilton, ON</p>
+              </div>
+
+              <p class="text-green-500 my-2">$ contact --email</p>
+              <p class="text-gray-200 my-2">
+                <a href="mailto:tomiadisa@outlook.com">tomiadisa@outlook.com</a>
+              </p>
+
+              <p class="text-green-500 my-2">$ cat resume.pdf</p>
+              <p class="text-gray-200 my-2">
+                <a href="#">View Resume</a>
+              </p>
+
+              <p class="text-green-500 my-2">$ ls ./social-links</p>
+              <p class="text-gray-200 my-2">
+                <a href="https://github.com/tomisinferno">Github</a>
+              </p>
+              <p class="text-gray-200 my-2">
+                <a href="https://ca.linkedin.com/in/tomi-adisa-378b26200"
+                  >LinkedIn</a
+                >
+              </p>
+
+              <p class="text-green-500 my-2">$ company --name</p>
+              <p class="text-red-500 my-2">
+                <a href="#">Scarlet Code</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <footer class="text-gray-400 text-sm text-center pb-4">
+          <p>
+            Inspired by
+            <a
+              href="https://www.devportfoliotemplates.com/portfolio-templates/backend-developer"
+              >DevPortfolio | Tomi Adisa, 2025</a
+            >
+          </p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
